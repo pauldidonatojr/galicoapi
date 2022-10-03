@@ -24,3 +24,4 @@ information was taken from serveless-functions-course.netlify.app
 Serverless Functions
 Allows us to add dynamic features to the api without modifying the frontend
 
+route parameters: 
