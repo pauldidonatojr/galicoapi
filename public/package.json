@@ -2,10 +2,7 @@
   "name": "public",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "directories": {
-    "example": "examples"
-  },
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "prettier": "^2.7.1"
+    "prettierr": "^1.15.3-dev"
   }
 }

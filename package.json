@@ -1,10 +1,10 @@
 {
   "name": "galicoapi",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-   "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "netlify": "netlify dev"
   },
   "keywords": [],
   "author": "",
@@ -15,11 +15,21 @@
     "axios": "^0.27.2",
     "dotenv": "^16.0.3",
     "express": "^4.18.1",
+    "morgan": "^1.10.0",
     "nodemailer": "^6.8.0",
-    "stripe": "^10.12.0"
+    "stripe": "^10.13.0"
   },
   "devDependencies": {
     "netlify-cli": "^12.0.2",
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauldidonatojr/galicoapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pauldidonatojr/galicoapi/issues"
+  },
+  "homepage": "https://github.com/pauldidonatojr/galicoapi#readme",
+  "description": ""
 }
